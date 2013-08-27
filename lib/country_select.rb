@@ -4,7 +4,12 @@
 # ActionView::FormBuilder
 #
 require 'country_select/version'
-require 'country_select/countries'
+
+if defined?(ISO3166::Country)
+  require 'country_select/iso3166_countries'
+else
+  require 'country_select/countries'
+end
 
 module ActionView
   module Helpers
