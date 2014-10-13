@@ -85,3 +85,8 @@ bundle exec appraisal
 ```
 
 Copyright (c) 2008 Michael Koziarski, released under the MIT license
+
+Other
+---
+
+This fork is in use at [Homestay.com](http://www.homestay.com).
